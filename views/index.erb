@@ -1,0 +1,13 @@
+<h1>Cookbook App</h1>
+<hr>
+<p>Here are all your recipes</p>
+<ul>
+  <% @recipes.each_with_index do |recipe, index| %>
+  <li>
+    <%= index %>. <%= recipe.done? ? "[X]" : "[  ]" %> <%=recipe.name %> - <%= recipe.description %> (<%=recipe.prep_time %>)
+    <a href="/recipes/<%= index %>">Destroy</a>
+  </li>
+  <% end %>
+</ul>
+<hr>
+<a href="/new">Add a new recipe</a>

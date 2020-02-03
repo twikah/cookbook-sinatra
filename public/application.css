@@ -1,0 +1,40 @@
+body {
+  background-image: linear-gradient(rgba(200, 200, 200, 0.5), rgba(100, 102, 109, 0.7)), url('chef.jpg');
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #fff;
+}
+
+input {
+  border-radius: 10px;
+  color: #111111
+}
+
+h1 {
+  font-size: 36px;
+  padding-bottom: 16px;
+}
+
+a {
+  color: #ccc;
+}
+
+a:hover {
+  color: #222;
+  text-decoration: none;
+}
+
+button {
+  border-radius: 10px;
+  color: #AA8276;
+}
+
+button:hover {
+  background-color: #AA8276;
+  color: #fefefe;
+}
